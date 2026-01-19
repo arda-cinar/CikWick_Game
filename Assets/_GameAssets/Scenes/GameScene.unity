@@ -2136,6 +2136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2130415081}
   - component: {fileID: 2130415084}
+  - component: {fileID: 2130415085}
   - component: {fileID: 2130415083}
   - component: {fileID: 2130415082}
   m_Layer: 0
@@ -2230,6 +2231,8 @@ MonoBehaviour:
   _jumpKey: 32
   _jumpForce: 8
   _canJump: 1
+  _airMultiplier: 0.2
+  _airDrag: 0.75
   _jumpCooldown: 0.5
   _slideKey: 113
   _slideMultiplier: 2
@@ -2239,6 +2242,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   _groundDrag: 5
+--- !u!114 &2130415085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130415080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436e4a2ce263b84439fa1f5cfa6ab8f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StateController
 --- !u!4 &459586067350173841
 Transform:
   m_ObjectHideFlags: 0
