@@ -1930,15 +1930,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   _orientationTransform: {fileID: 576991902}
+  _movementKey: 101
   _movementSpeed: 30
   _jumpKey: 32
-  _jumpForce: 5
+  _jumpForce: 8
   _canJump: 1
   _jumpCooldown: 0.5
+  _slideKey: 113
+  _slideMultiplier: 2
+  _slideDrag: 2
   _playerHeight: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  _groundDrag: 5
 --- !u!4 &459586067350173841
 Transform:
   m_ObjectHideFlags: 0
