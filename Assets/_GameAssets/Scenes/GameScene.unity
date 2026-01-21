@@ -299,9 +299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01f9bde129fc6f64bb93f4c2d91fcc98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HollyWheatCollectible
+  _wheatDesignSO: {fileID: 11400000, guid: d345b61b8c7f17f42866e7485dad7727, type: 2}
   _playerController: {fileID: 2130415084}
-  _forceIncrease: 8
-  _resetBoostDuration: 5
 --- !u!1 &117555978
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,9 +2128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df3446ea78b36104f9c7c932e535aa1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RottenWheatCollectible
+  _wheatDesignSO: {fileID: 11400000, guid: 5fa9734d290aed94baff84081e22777b, type: 2}
   _playerController: {fileID: 2130415084}
-  _movementDecreaseSpeed: -25
-  _resetBoostDuration: 5
 --- !u!1 &1807608690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,9 +2311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4091f7572a4164342b69270d516ee02d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoldWheatCollectible
+  _wheatDesignSO: {fileID: 11400000, guid: fec63416d8ec4c948874127318839731, type: 2}
   _playerController: {fileID: 2130415084}
-  _movementIncreaseSpeed: 15
-  _resetBoostDuration: 5
 --- !u!1 &1980227443
 GameObject:
   m_ObjectHideFlags: 0
