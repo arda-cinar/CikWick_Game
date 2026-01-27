@@ -11,7 +11,7 @@ public class CatStateController : MonoBehaviour
 
     public void ChangeState(CatState newState)
     {
-        if (_currentState != newState)
+        if (_currentState == newState)
         {
             return;
         }
