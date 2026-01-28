@@ -229,4 +229,21 @@ public class PlayerController : MonoBehaviour
     }
 
     #endregion
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Sink"))
+        {
+            _jumpForce += 10f;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Sink"))
+        {
+            _jumpForce -= 10f;
+        }
+
+    }
 }
